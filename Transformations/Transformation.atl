@@ -4,9 +4,9 @@
 module Transformation;
 create OUT : UML from IN : BPMN;
 
-rule Pool2ActivityPartition{
+rule Activity2ActivityNode{
 	from
-		s : BPMN!Pool 
+		s : BPMN!StartEvent
 	to 
-		t : UML!ActivityPartition
+		t : UML!InitialNode
 }
