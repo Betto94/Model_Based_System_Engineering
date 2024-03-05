@@ -1,1 +1,1 @@
-
+Strumento software per la trasformazione di modelli BPMN di processi di business [BPMN] in modelli UML annotati con il profilo SoaML [SoaML]. La trasformazione viene realizzata facendo uso del linguaggio ATL.
